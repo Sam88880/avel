@@ -1,0 +1,37 @@
+/* CarouselStyles.css */
+
+.carousel-container {
+  width: 80%;
+  margin: 0 auto; /* Centers the carousel horizontally */
+}
+
+.carousel-image {
+  width: 100%; /* Ensure the image takes the full width of the carousel item */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.carousel-title {
+  color: black; /* Ensures title color is black */
+}
+
+.MDBCarouselCaption {
+  display: flex; /* Set display to flex to enable flex properties */
+  flex-direction: column; /* Stack children vertically */
+  align-items: flex-start; /* Align children to the start (left) */
+  width: 100%; /* Ensure it takes the full width */
+}
+
+.button-group {
+  margin-top: 10px; /* Adds some space above the button group */
+  align-self: flex-start; /* Aligns the button group to the left */
+}
+
+.button-group .btn {
+  margin-right: 20px; /* Adds space between buttons */
+  padding: 10px 20px; /* Increase padding to make buttons larger */
+  font-size: 20px; /* Larger text size within the button */
+}
+
+.button-group .btn:last-child {
+  margin-right: 0; /* Removes margin from the last button */
+}
